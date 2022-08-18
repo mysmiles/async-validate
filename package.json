@@ -1,0 +1,31 @@
+{
+  "name": "async-validate",
+  "version": "1.0.0",
+  "description": "async-validate",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysmiles/async-vilidate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysmiles/async-vilidate/issues"
+  },
+  "homepage": "https://github.com/mysmiles/async-vilidate#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
