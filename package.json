@@ -1,9 +1,11 @@
 {
-  "name": "async-validate",
-  "version": "1.0.0",
+  "name": "d-async-validate-regexp",
+  "version": "1.0.1",
   "description": "async-validate",
   "main": "dist/index.js",
+  "private": false,
   "types": "dist/types/index.d.ts",
+  "files": ["dist/*","*.json", "*.js"],
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/mysmiles/async-vilidate.git"
   },
-  "keywords": [],
+  "keywords": ["正则", "校验"],
   "author": "",
   "license": "ISC",
   "bugs": {
